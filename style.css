@@ -1,0 +1,113 @@
+body
+{
+	background-color: #FAFAFA;
+	min-width: 400px;
+	min-height: 400px;
+}
+
+.entry {
+	background-color: #EEEEEE;
+	margin: 10px 0px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+}
+
+.entry p {
+	color: #212121;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.entry img {
+	margin: 5px;
+}
+
+.Input {
+	display: flex;
+	align-items: center;
+	padding-bottom: 15px;
+}
+
+.list-input {
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+	height: 32px;
+}
+
+.list-input input {
+	background-color: #EEEEEE;
+	border: none;
+	color: #212121;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	padding: 4px 32px;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.list-input input:focus {
+    outline: none;
+	border: none;
+}
+
+.list-input input:active {
+	transform: scale(.9);
+}
+
+.set {
+	margin-bottom: 15px;
+}
+
+.set-title
+{
+	color: #212121;
+	font-size: 16px;
+
+}
+
+.set .entry {
+	margin-left: 30px;
+	margin-right: 15px;
+}
+
+
+#Save-Button {
+  background-color: #EEEEEE;
+  border: none;
+  color: #212121;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#Save-Button:focus {
+    outline: none;
+	border: none;
+}
+
+#Save-Button:active {
+	transform: scale(.9);
+}
+
+input[type=text] {
+	background-color: #EEEEEE;
+	color: #212121;
+	height: 32px;
+	margin-left: 10px;
+	border: none;
+	font-size: 16px;
+	padding-left: 8px;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+::placeholder {
+}
